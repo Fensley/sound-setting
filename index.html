@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sound Setting</title>
+    <script
+      src="https://kit.fontawesome.com/8ee87fbffa.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <main>
+        <i class="fa-solid fa-less-than"></i>
+        <h3>Sound Setting</h3>
+      </main>
+      <div class="forpadding">
+        <div class="ring-ctn">
+          <div class="first-ring">
+            <label for="volum">Ring Volume</label>
+            <input type="range" min="0" max="100" value="70" />
+          </div>
+
+          <div class="first-ring">
+            <label for="volum">Alarm Volume</label>
+            <input type="range" min="10" max="100" value="50" />
+          </div>
+        </div>
+
+        <div class="vibrate-ctn">
+          <p>Vibrate on ring</p>
+          <label class="switch">
+            <input type="checkbox" />
+            <span class="slider round"></span>
+          </label>
+        </div>
+
+        <div class="third">
+          <div class="third-ctn">
+            <h4>Ringtone</h4>
+            <div class="greater">
+              <p>Playtime</p>
+              <i class="fa-solid fa-greater-than"></i>
+            </div>
+          </div>
+
+          <div class="third-ctn">
+            <h4>Meassage</h4>
+            <div class="greater">
+              <p>Bamboo</p>
+              <i class="fa-solid fa-greater-than"></i>
+            </div>
+          </div>
+
+          <div class="third-ctn">
+            <h4>Notification</h4>
+            <div class="greater">
+              <p>Tri-tone</p>
+              <i class="fa-solid fa-greater-than"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="btn-ctn">
+          <button class="btn1">Cancel</button>
+          <button class="btn2">Save</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
